@@ -3,14 +3,21 @@
   <select name="" id="">
     <option v-for="items in cpus"
     :key="items.name"> {{ items.name }} - ${{ items.price }}</option>
-    <option v-for="gpu in gpus"
+    
+  </select>
+
+  <select><option v-for="gpu in gpus"
     :key="gpu.name"> {{ gpu.name }} - ${{ gpu.price }}</option>
   </select>
+
+  
   </div>
 </template>
 
 <script>
 import Greet from './components/GreetPpl.vue'
+
+
 
 export default {
   name: 'App',
