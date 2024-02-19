@@ -42,4 +42,6 @@ export default {
   font-family: 'Times New Roman', Times, serif;
   float: left;
 }
+
+
 </style>
